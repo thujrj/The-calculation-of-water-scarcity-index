@@ -10,5 +10,5 @@ def cal(array1, array2, array3):
         if array2[i] > array3[i]:
             array1[i] = array1[i] + array2[i] - array3[i]
     return array1
-
+wsi = cal(availability1, availability2, withdrawal2) / withdrawal1
 
